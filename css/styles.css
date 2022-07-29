@@ -1,0 +1,185 @@
+/*imports font*/
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap');
+
+body{
+    background: linear-gradient(
+        to right,
+        #6EA1FA,
+        #24DBFF
+    );
+}
+
+#logo_Dr_Stone{
+    height: 225px;
+    position: absolute;
+    display: inline-block;
+    top: 90px;
+    left: 90px;
+    transition: all .4s ease-in-out;
+}
+
+#logo_Dr_Stone:hover{
+    transform: scale(1.3);
+}
+
+.topbar{
+    height: 12%;
+    width: 100%;
+    display: inline-block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+        to right,
+        #6EA1FA,
+        #24DBFF
+    );
+}
+
+#Back{
+    color: #24DBFF;
+    display: block;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Edu SA Beginner', cursive;
+    position: absolute;
+    margin: 0px;
+    top: -20px;
+    left: 480px;
+    width: 125px;
+    height: 0;
+    transition: all .4s ease-in-out;
+}
+
+#Back:hover{
+    transform: scale(1.2);
+}
+
+#Home{
+    font-size: 35px;
+    width: 150px;
+    height: 0;
+    font-family: 'Edu SA Beginner', cursive;
+    margin-left: 170px;
+    border-bottom: 20px;
+    transition: all .4s ease-in-out;
+    color: #24DBFF;
+    position: relative;
+    bottom: 20px;
+    left: 470px;
+}
+
+#Home:hover{
+    transform: scale(1.2);
+}
+
+.Home_Link{
+    text-decoration: none;
+}
+
+.manga_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.Text_Chapters{
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    color: #24DBFF;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 25px;
+    width: 120px;
+    height: 0;
+    left: 40%;
+}
+
+.Text_Chapters:hover{
+    color: #005dfe;
+}
+
+#logo_One_Piece{
+    height: 225px;
+    position: absolute;
+    display: inline-block;
+    top: 90px;
+    left: 275px;
+    transition: all .4s ease-in-out;
+}
+
+#logo_One_Piece:hover{
+    transform: scale(1.3);
+}
+
+#logo_Jojo{
+    height: 225px;
+    position: absolute;
+    display: inline-block;
+    top: 90px;
+    left: 475px;
+    transition: all .4s ease-in-out;
+}
+
+#logo_Jojo:hover{
+    transform: scale(1.3);
+}
+
+#to_be_continued{
+    position: absolute;
+    width: 150px;
+    top: 45px;
+    left: -10px;
+}
+
+#to_be_continued_forward{
+    position: relative;
+    width: 150px;
+    left: 475px;
+    bottom: 20px;
+    transition: all .4s ease-in-out;
+}
+
+#to_be_continued_forward:hover{
+    transform: scale(1.2);
+}
+
+#Home_Bottom{
+    font-size: 35px;
+    width: 150px;
+    height: 0;
+    font-family: 'Edu SA Beginner', cursive;
+    margin-left: 170px;
+    border-bottom: 20px;
+    transition: all .4s ease-in-out;
+    color: #24DBFF;
+    position: relative;
+    bottom: -5px;
+    left: 470px;
+}
+
+#Home_Bottom:hover{
+    transform: scale(1.2);
+}
+
+#Forward_Normal{
+    color: #24DBFF;
+    display: block;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Edu SA Beginner', cursive;
+    position: relative;
+    margin-right: 30px;
+    top: -30px;
+    left: 430px;
+    width: 175px;
+    height: 0;
+    margin-bottom: 50px;
+    transition: all .4s ease-in-out;
+}
+
+#Forward_Normal:hover{
+    transform: scale(1.2);
+}
